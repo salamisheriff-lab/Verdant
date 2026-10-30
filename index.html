@@ -63,7 +63,7 @@
           <p>Stone Hollow Farm strawberries are back</p>
         </div>
 
-        <h1 class="hero-heading">Groceries that still taste like the farm.</h1>
+        <h1 class="hero-heading">Grocerie that still taste like the farm.</h1>
         <p class="hero-paragraph">
           Picked at dawn from 42 family farms, packed without plastic, and
           delivered to your door in under 4 hours. Fresher than the market,
@@ -175,7 +175,7 @@
         </div>
         <div class="aisels-card">
           <img src="assets/lavender-and-eucalyptus-bouquet.png" alt="" />
-          <div class="aisels-card-content">
+          <div class="aisels-card-content">   
             <h4 class="card-name">Produce</h4>
             <p class="card-stock">124 items</p>
           </div>
@@ -227,61 +227,151 @@
       </div>
     </section>
 
-    <!-- This weeks pick -->
+    <!-- Weekly picks -->
 
-    <section class="aisels">
-      <div class="aisels-header">
+    <section class="weekly-picks">
+      <div class="weekly-picks-header">
         <div>
-          <p class="aisels-subheading">This week's pick</p>
-          <h3 class="aisels-heading">Fresh off the truck</h3>
+          <p class="weekly-picks-subheading">This week's picks</p>
+          <h3 class="weekly-picks-heading">Fresh off the truck</h3>
         </div>
-        <a href="" class="view-aisles-link">View all aisles &RightArrow;</a>
+        <div class="weekly-picks-filters">
+          <button class="filter-button active">All</button>
+          <button class="filter-button">Veggies</button>
+          <button class="filter-button">Bakery</button>
+          <button class="filter-button">Dairy</button>
+        </div>
       </div>
 
-      <div class="aisels-cards-wrapper">
-        <div class="aisels-card">
-          <img src="assets/fresh-spinach-leaves.png" alt="" />
-          <div class="aisels-card-content">
-            <h4 class="card-name">Produce</h4>
-            <p class="card-stock">124 items</p>
+      <div class="weekly-picks-cards-wrapper">
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="assets/red-yellow-pepper.png" alt="Heirloom tomatoes" />
+            <span class="product-card-tag">Peak season</span>
+          </div>
+          <div class="product-card-content">
+            <h4 class="product-name">Heirloom Tomatoes</h4>
+            <p class="product-source">Stone Hollow · 12mi</p>
+            <div class="product-card-footer">
+              <p class="product-price">$4.20 /lb</p>
+              <button class="add-button" aria-label="Add to basket">
+                <i class="ph ph-plus"></i>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="aisels-card">
-          <img src="assets/milk-bottles,-eggs-and-cheese.png" alt="" />
-          <div class="aisels-card-content">
-            <h4 class="card-name">Produce</h4>
-            <p class="card-stock">124 items</p>
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="assets/sliced-sourdough.png" alt="Sourdough loaf" />
+            <span class="product-card-tag">Baked today</span>
+          </div>
+          <div class="product-card-content">
+            <h4 class="product-name">Sourdough Loaf</h4>
+            <p class="product-source">Juniper Bakery · baked 6am</p>
+            <div class="product-card-footer">
+              <p class="product-price">$7.50</p>
+              <button class="add-button" aria-label="Add to basket">
+                <i class="ph ph-plus"></i>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="aisels-card">
-          <img src="assets/bread-loaves-and-pastries.png" alt="" />
-          <div class="aisels-card-content">
-            <h4 class="card-name">Produce</h4>
-            <p class="card-stock">124 items</p>
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="assets/eggs.png" alt="Carton of pasture eggs" />
+            <span class="product-card-tag">Pasture-raised</span>
+          </div>
+          <div class="product-card-content">
+            <h4 class="product-name">Pasture Eggs, dozen</h4>
+            <p class="product-source">Clover Fold · 28mi</p>
+            <div class="product-card-footer">
+              <p class="product-price">$6.90</p>
+              <button class="add-button" aria-label="Add to basket">
+                <i class="ph ph-plus"></i>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="aisels-card">
-          <img src="assets/jar- of-pantry-staples-on-a-shelf.png" alt="" />
-          <div class="aisels-card-content">
-            <h4 class="card-name">Produce</h4>
-            <p class="card-stock">124 items</p>
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="assets/honey.png" alt="Jar of wildflower honey" />
+            <span class="product-card-tag">Small batch</span>
           </div>
-        </div>
-        <div class="aisels-card">
-          <img src="assets/salmon-fillet-with-lemon-and-asparagus.png" alt="" />
-          <div class="aisels-card-content">
-            <h4 class="card-name">Produce</h4>
-            <p class="card-stock">124 items</p>
-          </div>
-        </div>
-        <div class="aisels-card">
-          <img src="assets/lavender-and-eucalyptus-bouquet.png" alt="" />
-          <div class="aisels-card-content">
-            <h4 class="card-name">Produce</h4>
-            <p class="card-stock">124 items</p>
+          <div class="product-card-content">
+            <h4 class="product-name">Wildflower Honey</h4>
+            <p class="product-source">Beelove · raw &amp; unfiltered</p>
+            <div class="product-card-footer">
+              <p class="product-price">$11.00</p>
+              <button class="add-button" aria-label="Add to basket">
+                <i class="ph ph-plus"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Promo -->
+
+    <section class="promo-section">
+  <div class="card-dark">
+    <span class="badge">WEEKEND - 20% GREENS</span>
+    <h2>Salad days, half the price.</h2>
+    <p>Kale, arugula, little gems — all weekend, all local.</p>
+    <div class="btn-row">
+      <button class="btn-white">Grab the deal</button>
+      <span class="ends">Ends Sun 11:59pm</span>
+    </div>
+  </div>
+
+  <div class="card-light">
+    <div>
+      <h3>Dinner plans? We text you<br>when the truck leaves.</h3>
+      <p>Live tracking, little till dispatch, chat with your<br>shopper.</p>
+      <div class="store-btns">
+        <div class="store-btn">&DownArrow; App Store</div>
+        <div class="store-btn">&DownArrow; Google Play</div>
+      </div>
+    </div>
+    <div class="qr-box">
+      <div class="qr"></div>
+      <span>Scan to download</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-left">
+     <div class="logo-container">
+          <div class="logo-footer"></div>
+          <h2 class="logo-text-footer">Verdant</h2>
+        </div>
+    <p class="footer-paragraph">The neighborhood grocer, rebuilt around family farms and fast e-bikes.</p>
+    <div class="copyright">© 2026 Verdant Market Co.</div>
+  </div>
+
+  <div class="footer-links">
+    <div class="col">
+      <h4>Shop</h4>
+      <a href="#">Produce</a>
+      <a href="#">Bakery</a>
+      <a href="#">Pantry</a>
+    </div>
+    <div class="col">
+      <h4>Company</h4>
+      <a href="#">Our farms</a>
+      <a href="#">Sustainability</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="col">
+      <h4>Support</h4>
+      <a href="#">Help center</a>
+      <a href="#">Delivery zones</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom-right">Grown with care in the Hudson Valley</div>
+</footer>
+
   </body>
 </html>
